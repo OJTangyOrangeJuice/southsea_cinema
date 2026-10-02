@@ -15,7 +15,11 @@ class MovieListing extends StatelessWidget {
         elevation: 0,
       ),
       drawer: const NavDrawer(),
-      body: const SizedBox.shrink(),
+      body: Container(
+        color: Color(),
+        child: const Column(children: [
+          Text('Avengers Infinity War')
+        ],),),
     );
   }
 }
