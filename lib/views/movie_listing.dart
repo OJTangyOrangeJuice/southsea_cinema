@@ -18,7 +18,8 @@ class MovieListing extends StatelessWidget {
       body: Container(
         color: Color(),
         child: const Column(children: [
-          Text('Avengers Infinity War')
+          Text('Avengers Infinity War'),
+          Text('Earths mightiest heroes and their cosmic allies race to stop Thanos')
         ],),),
     );
   }
